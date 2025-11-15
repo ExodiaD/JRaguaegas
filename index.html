@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Serviços de instalação, manutenção e fornecimento de água e gás residencial e comercial.">
+  <title>JR Água & Gás — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <video autoplay muted loop preload="auto" class="bg-video">
+    <source src="public/img/videoplayback.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+    <!-- Header/Navigation -->
+    <header>
+      <div class="brand">
+        <div class="logo">
+          <img src="public/img/logo.jpg" alt="JR Água e Gás - logo">
+        </div>
+        <div>
+          <h1>JR Água & Gás</h1>
+          <div class="brand-subtitle">Instalação · Manutenção · Fornecimento</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="cta">Peça um Orçamento</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-card">
+          <p class="hero-subtitle">Confiabilidade e segurança</p>
+          <h2>Instalações e manutenção de água e gás — rápidas e seguras</h2>
+          <p>Atendemos residências, prédios e estabelecimentos comerciais com equipe certificada, peças de qualidade e garantia técnica.</p>
+
+          <div class="buttons">
+            <button type="button" class="btn primary">Solicitar Orçamento</button>
+            <button type="button" class="btn outline">Nossos Serviços</button>
+          </div>
+
+          <div class="hero-footer">Atendemos na sua região — 24/7 para emergências de gás.</div>
+        </div>
+
+        <!-- Quick Contact -->
+        <aside class="hero-aside">
+          <div class="contact-quick">
+            <h3>Contato rápido</h3>
+            <div>Telefone: (00) 91234-5678</div>
+            <div>Email: contato@jraguaegas.com</div>
+            <a href="#contato">Fale conosco</a>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Services Section -->
+      <section id="servicos">
+        <h2>Nossos serviços</h2>
+        <div class="services">
+          <article class="service">
+            <div class="ico">A</div>
+            <div>
+              <h3>Entrega de água e gás da maneira mais legal desse mundo</h3>
+              <p>Projeto e execução com materiais certificados, testes de pressão e garantia.</p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="ico">G</div>
+            <div>
+              <h3>Entrega segura e responsável</h3>
+              <p>Vistorias, troca de tubulações e conserto de vazamentos com equipe especializada.</p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="ico">M</div>
+            <div>
+              <h3>Manutenção preventiva e corretiva</h3>
+              <p>Planos periódicos para evitar problemas e reduzir custos no longo prazo.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="sobre">
+        <h2>Sobre a JR</h2>
+        <div class="about-card">
+          Somos uma empresa local com foco em segurança, qualidade técnica e atendimento rápido. Técnicos certificados e materiais homologados.
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contato">
+        <h2>Contato</h2>
+        <div class="contact">
+          <form class="contact-form" onsubmit="event.preventDefault();alert('Formulário de exemplo — implemente o backend')">
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Seu nome" required>
+
+            <label for="phone">Telefone ou WhatsApp</label>
+            <input type="tel" id="phone" placeholder="(00) 9XXXX-XXXX" required>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" placeholder="Descreva seu pedido" required></textarea>
+
+            <button type="submit" class="btn primary">Enviar</button>
+          </form>
+
+          <div class="contact-info">
+            <div class="contact-info-title">Endereço</div>
+            <div class="contact-info-address">Rua Exemplo, 123 — Centro</div>
+            <div class="contact-info-hours">Horário: Seg–Sexta 8:00–18:00</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      © JR Água & Gás — Todos os direitos reservados
+    </footer>
+  </div>
+</body>
+</html>
