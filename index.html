@@ -17,7 +17,7 @@
           <img src="public/img/logo.jpg" alt="JR Água e Gás - logo">
         </div>
         <div>
-          <h1>JR Água & Gás</h1>
+          <h1>J.R Água & Gás</h1>
           <div class="brand-subtitle">Instalação · Manutenção · Fornecimento</div>
         </div>
       </div>
@@ -48,7 +48,7 @@
         <aside class="hero-aside">
           <div class="contact-quick">
             <h3>Contato rápido</h3>
-            <div>Telefone: (00) 91234-5678</div>
+            <div>Telefone: (11) 95867-0716</div>
             <div>Email: contato@jraguaegas.com</div>
             <a href="#contato">Fale conosco</a>
           </div>
@@ -60,18 +60,18 @@
         <h2>Nossos serviços</h2>
         <div class="services">
           <article class="service">
-            <div class="ico">A</div>
+            <div class="ico"><img src="public/img/image.png" alt="Entrega de água e gás" /></div>
             <div>
-              <h3>--Entrega de água e gás--</h3>
-              <p>--Instalação do Gás--</p>
+              <h3>Entrega Rapida e segura</h3>
+              <p>Fazemos instalação do Gás!</p>
             </div>
           </article>
 
           <article class="service">
-            <div class="ico">G</div>
+            <div class="ico"><img src="public/img/security.png" Alt="Entrega segura e responsável"></div>
             <div>
-              <h3>Entrega segura e responsável</h3>
-              <p>Vistorias, troca de tubulações e conserto de vazamentos com equipe especializada.</p>
+              <h3>Ajuda na instalação do Gás</h3>
+              <p>(Se necessário)</p>
             </div>
           </article>
 
@@ -87,7 +87,7 @@
 
       <!-- About Section -->
       <section id="sobre">
-        <h2>Sobre a JR</h2>
+        <h2>Sobre a J.R</h2>
         <div class="about-card">
           Somos uma empresa local com foco em segurança, qualidade técnica e atendimento rápido. Técnicos certificados e materiais homologados.
         </div>
@@ -103,6 +103,19 @@
 
             <label for="phone">Telefone ou WhatsApp</label>
             <input type="tel" id="phone" placeholder="(00) 9XXXX-XXXX" required>
+
+            <label for="product">Produto</label>
+            <select id="product" required>
+              <option value="">Selecione</option>
+              <option value="agua">Água</option>
+              <option value="gas">Gás</option>
+            </select>
+
+            <label for="quantity">Quantidade</label>
+            <input type="number" id="quantity" min="1" required>
+
+            <label for="address">Endereço de entrega</label>
+            <input type="text" id="address" placeholder="Endereço completo" required>
 
             <label for="message">Mensagem</label>
             <textarea id="message" placeholder="Descreva seu pedido" required></textarea>
