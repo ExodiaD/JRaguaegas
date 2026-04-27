@@ -74,6 +74,18 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
+                <Smartphone className="w-4 h-4 text-brand-yellow mt-0.5 shrink-0" />
+                <a
+                  href="https://wa.me/5511979770724?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20pedir%20água/gás."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-300 hover:text-brand-yellow transition-colors"
+                >
+                  (11) 97977-0724
+                  <span className="block text-[10px] text-blue-400">WhatsApp</span>
+                </a>
+              </li>
+              <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-brand-yellow mt-0.5 shrink-0" />
                 <span className="text-sm text-blue-300">
                   Rua Patrícia, 43 — Sagrado Coração
