@@ -1,146 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Serviços de instalação, manutenção e fornecimento de água e gás residencial e comercial.">
-  <title>J.R Água & Gás — Home</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="container">
-    <!-- Header/Navigation -->
-    <header>
-      <div class="brand">
-        <div class="logo">
-          <img src="public/img/logo.jpg" alt="JR Água e Gás - logo">
-        </div>
-        <div>
-          <h1>J.R Água & Gás</h1>
-          <div class="brand-subtitle">Instalação · Manutenção · Fornecimento</div>
-        </div>
-      </div>
-      <nav>
-        <a href="#servicos">Serviços</a>
-        <a href="#sobre">Sobre</a>
-        <button class="btn-31 theme-button" id="theme-toggle">
-          <span class="text-container">
-            <span class="text">Tema</span>
-          </span>
-        </button>
-        <script src="script.js"></script>
-      </nav>
-    </header>
-
-    <main>
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="hero-card">
-          <p class="hero-subtitle">Confiabilidade e segurança</p>
-          <h2>Instalações e manutenção de água e gás — rápidas e seguras</h2>
-          <p>Atendemos residências, prédios e estabelecimentos comerciais com equipe certificada, peças de qualidade e garantia técnica.</p>
-
-          <div class="buttons">
-            <button type="button" class="btn primary">Solicitar Orçamento</button>
-            <button type="button" class="btn outline">Nossos Serviços</button>
-          </div>
-
-          <div class="hero-footer">Atendemos na sua região — 24/7 para emergências de gás.</div>
-        </div>
-
-        <!-- Quick Contact -->
-        <aside class="hero-aside">
-          <div class="contact-quick">
-            <h3>Contato rápido</h3>
-            <div>Telefone: (11) 95867-0716</div>
-            <div>Email: contato@jraguaegas.com</div>
-            <a href="#contato">Fale conosco</a>
-          </div>
-        </aside>
-      </section>
-
-      <!-- Services Section -->
-      <section id="servicos">
-        <h2>Nossos serviços</h2>
-        <div class="services">
-          <article class="service">
-            <div class="ico"><img src="public/img/image.png" alt="Entrega de água e gás" /></div>
-            <div>
-              <h3>Entrega Rapida e segura</h3>
-              <p>Fazemos instalação do Gás!</p>
-            </div>
-          </article>
-
-          <article class="service">
-            <div class="ico"><img src="public/img/security.png" Alt="Entrega segura e responsável"></div>
-            <div>
-              <h3>Ajuda na instalação do Gás</h3>
-              <p>(Se necessário)</p>
-            </div>
-          </article>
-
-          <article class="service">
-            <div class="ico"><img src="public/img/award_9625009.png" alt="Selo de prêmio" /></div>
-            <div>
-              <h3>Cartao Fidelidade</h3>
-              <p>A cada 6 compras de água, a 7ª é grátis.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <!-- About Section -->
-      <section id="sobre">
-        <h2>Sobre a J.R</h2>
-        <div class="about-card">
-          Somos uma empresa local com foco em segurança, qualidade técnica e atendimento rápido. Técnicos certificados e materiais homologados.
-        </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contato">
-        <h2>Contato</h2>
-        <div class="contact">
-          <form class="contact-form" onsubmit="event.preventDefault();alert('Formulário de exemplo — implemente o backend')">
-            <label for="name">Nome</label>
-            <input type="text" id="name" placeholder="Seu nome" required>
-
-            <label for="phone">Telefone ou WhatsApp</label>
-            <input type="tel" id="phone" placeholder="(00) 9XXXX-XXXX" required>
-
-            <label for="product">Produto</label>
-            <select id="product" required>
-              <option value="">Selecione</option>
-              <option value="agua">Água</option>
-              <option value="gas">Gás</option>
-            </select>
-
-            <label for="quantity">Quantidade</label>
-            <input type="number" id="quantity" min="1" required>
-
-            <label for="address">Endereço de entrega</label>
-            <input type="text" id="address" placeholder="Endereço completo" required>
-
-            <label for="message">Mensagem</label>
-            <textarea id="message" placeholder="Descreva seu pedido" required></textarea>
-
-            <button type="submit" class="btn primary">Enviar</button>
-          </form>
-
-          <div class="contact-info">
-            <div class="contact-info-title">Endereço</div>
-            <div class="contact-info-address">Rua Patricia, 43 — Jardim Sagrado Coração, Jandira</div>
-            <div class="contact-info-hours">Horário: Seg–Sexta 8:00–17:00</div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-      © J.R Água & Gás — Todos os direitos reservados
-    </footer>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="J.R Água e Gás - Distribuidora de água mineral e gás de cozinha em Jandira, SP. Entrega rápida na região. Peça agora pelo WhatsApp!" />
+    <meta name="keywords" content="água mineral, gás de cozinha, Jandira, entrega rápida, botijão de gás, galão de água" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>J.R Água e Gás | Distribuidora em Jandira - Entrega Rápida</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
